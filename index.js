@@ -29,6 +29,7 @@ function printSkill(languages , header) {
 
     console.log(output);
 }
+
 async function main(){
     console.log(`
 ( ͡° ͜ʖ ͡°) 
@@ -65,13 +66,18 @@ async function main(){
     console.log(`STATUS  `.green + ' - ' + 'Student'.cyan);
     console.log(`GITHUB  `.green + ' - ' + `btw its awesome -> `.cyan + "  "  + ("https://github.com/arnab7456").cyan);
     console.log(`WEBSITE `.green + ' - ' + `Coolest thing ->`.cyan + "  " +  ("https://arnabdas.vercel.app").cyan);
-
-    console.log()
-
+    console.log(`LinkedIn`.green+ ' - ' + "LinkedIn ->".cyan + "  " + ("https://www.linkedin.com/in/arnab-das7456/").cyan);
+    console.log(`TWITTER`.green + ' - ' + "TWITTER  ->".cyan + "  " + ("https://x.com/Arnab_devops").cyan)
+    console.log(`LEETCODE`.green + ' - ' + "LEETCODE ->".cyan + " " + ("https://leetcode.com/u/arnab7456/").cyan);
     console.log(`
     
-█░░ ▄▀█ █▄░█ █▀▀ █░█ ▄▀█ █▀▀ █▀▀ █▀
-█▄▄ █▀█ █░▀█ █▄█ █▄█ █▀█ █▄█ ██▄ ▄█`.yellow)
+    
+▀▀█▀▀ █▀▀ █▀▀ █──█ █▀▀▄ ─▀─ █▀▀ █▀▀█ █── 　 ░█▀▀▀█ █─█ ─▀─ █── █── █▀▀ 
+─░█── █▀▀ █── █▀▀█ █──█ ▀█▀ █── █▄▄█ █── 　 ─▀▀▀▄▄ █▀▄ ▀█▀ █── █── ▀▀█ 
+─░█── ▀▀▀ ▀▀▀ ▀──▀ ▀──▀ ▀▀▀ ▀▀▀ ▀──▀ ▀▀▀ 　 ░█▄▄▄█ ▀─▀ ▀▀▀ ▀▀▀ ▀▀▀ ▀▀▀
+    
+    
+    `.blue)
 
 console.log()
 printSkill(['Java', 'C', 'Python', 'TypeScript', 'JavaScript'] , 'LANGUAGES   ');
