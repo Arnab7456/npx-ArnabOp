@@ -15,7 +15,7 @@ function shuffle(array) {
 }
 
 function printSkill(languages , header) {
-    const availableColors = shuffle(['yellow', 'red', 'blue', 'magenta']);
+    const availableColors = shuffle(['yellow', 'cyan', 'white', 'magenta']);
 
  
     let output = `${header}`.green + ' - ';
@@ -65,7 +65,7 @@ async function main(){
     console.log(`NAME    `.green + ' - ' + 'Arnab Das'.cyan);
     console.log(`STATUS  `.green + ' - ' + 'Student'.cyan);
     console.log(`GITHUB  `.green + ' - ' + `btw its awesome -> `.cyan + "  "  + ("https://github.com/arnab7456").cyan);
-    console.log(`WEBSITE `.green + ' - ' + `Coolest thing ->`.cyan + "  " +  ("https://arnabdas.vercel.app").cyan);
+    console.log(`WEBSITE `.green + ' - ' + `Coolest thing ->`.cyan + "  " +  ("https://arnabop.vercel.app").cyan);
     console.log(`LinkedIn`.green+ ' - ' + "LinkedIn ->".cyan + "  " + ("https://www.linkedin.com/in/arnab-das7456/").cyan);
     console.log(`TWITTER`.green + '  - ' + "TWITTER  ->".cyan + "  " + ("https://x.com/Arnab_devops").cyan)
     console.log(`LEETCODE`.green + ' - ' + "LEETCODE ->".cyan + " " + ("https://leetcode.com/u/arnab7456/").cyan);
